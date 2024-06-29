@@ -1,0 +1,141 @@
+{
+    "code": 26,
+    "message": "Valid method.",
+    "result": {
+        "0": {
+            "model_info": [
+                {
+                    "id": 7091,
+                    "noteb_name": "Asus TUF F15 FX507ZE  FX507. (US)",
+                    "name": "Asus TUF F15 FX507ZE",
+                    "extra_name": "",
+                    "submodel_info": [
+                        " FX507.",
+                        "(US)"
+                    ]
+                }
+            ],
+            "config_id": "7784430913992335571",
+            "model_resources": {
+                "thumbnail": "https://noteb.com/res/img/models/thumb/t_3865_1.jpg",
+                "image_1": "https://noteb.com/res/img/models/3865_1.jpg",
+                "image_2": "https://noteb.com/res/img/models/3865_2.jpg",
+                "image_3": "https://noteb.com/res/img/models/3865_3.jpg",
+                "image_4": "https://noteb.com/res/img/models/3865_4.jpg",
+                "official_link": "",
+                "official_link2": null,
+                "launch_date": "2022-03-07",
+                "primary_model": "4886"
+            },
+            "cpu": {
+                "prod": "Intel",
+                "model": "i5-12500H",
+                "lithography": "7",
+                "cache": "18",
+                "base_speed": "1.80",
+                "boost_speed": "4.50",
+                "cores": "12",
+                "tdp": "45",
+                "other_info": "SSE4.2,AVX2.0,HT,64-bit,TBT 2.0,VT-x,VT-d,Intel GNA 2.0,IPU 6.0",
+                "rating": "50.0",
+                "integrated_video_id": "835",
+                "integrated_video": "Unknown"
+            },
+            "display": {
+                "size": "15.6",
+                "horizontal_resolution": "1920",
+                "vertical_resolution": "1080",
+                "type": "LED IPS",
+                "sRGB": "60",
+                "touch": "no",
+                "other_info": "45% AdobeRGB"
+            },
+            "memory": {
+                "size": "16",
+                "speed": "4800",
+                "type": "DDR5"
+            },
+            "primary_storage": {
+                "model": "SSD M.2 PCIe",
+                "cap": "512",
+                "rpm": null,
+                "read_speed": "900"
+            },
+            "secondary_storage": {
+                "model": "N/A",
+                "cap": "0",
+                "rpm": null,
+                "read_speed": null
+            },
+            "gpu": {
+                "prod": "Nvidia",
+                "model": "GeForce RTX 3050 Ti 95W",
+                "architecture": "Ampere",
+                "lithography": "8",
+                "shaders": "2560",
+                "base_speed": "1222",
+                "boost_speed": "1485",
+                "shader_speed": "1222",
+                "memory_speed": "1500",
+                "memory_bandwidth": "128",
+                "memory_size": "4096",
+                "memory_type": "GDDR6",
+                "tdp": "95",
+                "other_info": "Nvidia PhysX,Nvidia CUDA,Nvidia BatteryBoost,Optimus,Nvidia MFAA,Nvidia GPU Boost 3.0,G-Sync",
+                "rating": "26.0"
+            },
+            "wireless_card": {
+                "model": "Wi-Fi 6 AX201",
+                "speed": "2400",
+                "other_info": "2.4 GHz,5 GHz,2 x antennas,160 MHz,MU-MIMO,Bluetooth 5.2"
+            },
+            "optical_drive": {
+                "type": "none",
+                "other_info": ""
+            },
+            "motherboard": {
+                "ram_slots": "2",
+                "lan_card": "OEM 10/100/1000",
+                "storage_slots": " 2 X M.2 SATA/PCIe",
+                "other_info": "HD audio,MUX switch,Optimus"
+            },
+            "chassis": {
+                "height_cm": "2.49",
+                "height_inch": "0.98",
+                "depth_cm": "25.10",
+                "depth_inch": "9.88",
+                "width_cm": "35.40",
+                "width_inch": "13.94",
+                "weight_kg": "2.20",
+                "weight_lb": "4.85",
+                "colors": "Black",
+                "build_materials": "Plastic",
+                "peripheral_interfaces": "1 X USB-C 4.0,1 X USB-C 3.2,1 X LAN,Thunderbolt,2 X USB 3.1",
+                "video_interfaces": "1 X HDMI",
+                "webcam_mp": "0.920",
+                "keyboard_type": "Backlit Chiclet keyboard,RGB LED",
+                "charger": "240W (12A - 20VDC)",
+                "other_info": "2 x speakers,Microphone array,Edgeless display"
+            },
+            "battery": {
+                "capacity": "90",
+                "cell_type": "Li-Ion",
+                "other_info": ""
+            },
+            "warranty": {
+                "years": "1",
+                "type_short": "Standard",
+                "type_long": "Standard Pick-up & Return"
+            },
+            "operating_system": "Windows Home 11.00",
+            "config_score": "41.35",
+            "config_price": "750",
+            "config_price_min": "743",
+            "config_price_max": "758",
+            "battery_life_raw": "7.1",
+            "battery_life_hours": "7:00",
+            "total_storage_capacity": "512"
+        }
+    },
+    "daily_hits_left": "494"
+}

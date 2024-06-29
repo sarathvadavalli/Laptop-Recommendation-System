@@ -1,0 +1,100 @@
+
+.container2 {
+  display: flex;
+}
+.left-side2{
+  width: 100%;
+  height: 580px;
+  overflow-y: auto; 
+  scrollbar-width:none; 
+}
+.checkbox2 {
+  font-family: Arial, sans-serif;
+}
+
+.headbox2 {
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid red;
+  padding: 30px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.submitbutton2{
+height: 40px;
+width: 180px;
+margin-left: 25px;
+background-image: linear-gradient(135deg,rgb(240, 158, 6),rgb(223, 223, 19));
+font-size: 18px;
+font-weight: bold;
+color:black;
+border-radius: 20px;
+border: 2px solid red;
+}
+.submitbutton2:hover{
+height: 40px;
+width: 180px;
+margin-left: 25px;
+background-image: linear-gradient(135deg,rgb(41, 240, 6),rgb(223, 213, 19));
+font-size: 18px;
+font-weight: bold;
+color:black;
+}
+
+.optionsbox2-container {
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.optionsbox2 {
+  margin-left: 20px;
+}
+
+.options2 div {
+  margin-bottom: 5px;
+}
+
+.options2 label {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+  display: block;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.laptop-wrapper {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.laptop-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.laptop img {
+  transition: none; 
+}
+
+.laptop h2 {
+  transition: none; 
+}

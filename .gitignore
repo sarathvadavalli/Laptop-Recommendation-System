@@ -1,0 +1,45 @@
+# Node project
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+LRS_Frontend/node_modules/
+LRS_Backend/node_modules/
+
+# Build outputs
+dist/
+LRS_Frontend/dist/
+LRS_Backend/dist/
+build/
+LRS_Frontend/build/
+LRS_Backend/build/
+
+# IDE and editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+LRS_Frontend/.env
+LRS_Backend/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by testing tools
+coverage/
+LRS_Frontend/coverage/
+LRS_Backend/coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp

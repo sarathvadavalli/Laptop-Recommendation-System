@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+}
+.left-side{
+  width: 20%;
+  height: 580px;
+  overflow-y: auto; 
+  scrollbar-width:none; 
+}
+.checkbox {
+  font-family: Arial, sans-serif;
+}
+
+.headbox {
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.submitbutton{
+height: 40px;
+width: 180px;
+margin-left: 25px;
+background-color:greenyellow;
+font-size: 18px;
+font-weight: bold;
+color:black;
+border-radius: 20px;
+border: 2px solid red;
+}
+.submitbutton:hover{
+height: 40px;
+width: 180px;
+margin-left: 25px;
+background-image: linear-gradient(135deg,rgb(41, 240, 6),rgb(223, 213, 19));
+font-size: 18px;
+font-weight: bold;
+color:black;
+}
+
+.optionsbox-container {
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.optionsbox {
+  margin-left: 20px;
+}
+
+.options div {
+  margin-bottom: 5px;
+}
+
+.options label {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+  display: block;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.right-side {
+  width: 80%; 
+  float: right; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.laptop a {
+text-decoration: none; 
+color:black; 
+}
+
+.laptop-list {
+  height: 540px;
+  overflow-y: auto; 
+  scrollbar-width:thin; 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px; 
+}
+
+.laptop-wrapper {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.laptop-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.laptop img {
+  transition: none; 
+}
+
+.laptop h2 {
+  transition: none; 
+}
+
+.laptop {
+  background-image: linear-gradient(135deg,orange,yellow);
+  border: 2px solid yellow;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.laptop img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.laptop #lapnamee{
+text-align: center;
+}
+
+.laptop p {
+  margin-top: 5px;
+}
