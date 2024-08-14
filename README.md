@@ -4,7 +4,7 @@
 
 ## Features
 <h4>a) Choosing the level of user:</h4> The user can choose a level either beginner, intermediate or pro based on their knowledge on specifications and other aspects of laptop.
-<h4>a) Selecting the options:</h4> Once the user selects their level, user can select the available options of various features like laptop name, RAM size, disc space, weight, resolution etc. and click on submit.
+<h4>b) Selecting the options:</h4> Once the user selects their level, user can select the available options of various features like laptop name, RAM size, disc space, weight, resolution etc. and click on submit.
 <h4>c) View details of a laptop:</h4> After user selects the options and click submit, all the laptops matched with thir preferences are displayed. Now user can click on any laptop to view its complete details.
 
 ## Technologies
